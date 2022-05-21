@@ -2,7 +2,7 @@
 ## Dockerization client and API
 ### Client folder: 
 #### Contains a React JS project with its corresponding **Dockerfile**
-**note: react app may take a few seconds to start**
+*note: react app may take a few seconds to start*
 
 ### API folder: 
 #### Contains a Node Express JS project with its corresponding **Dockerfile**
