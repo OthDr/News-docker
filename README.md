@@ -1,10 +1,10 @@
 # Alos_act4
 ## Dockerization client and API
-### Client folder: 
+### Client folder: Client service
 #### Contains a React JS project with its corresponding **Dockerfile**
 *note: react app may take a few seconds to start*
 
-### API folder: 
+### API folder: API service
 #### Contains a Node Express JS project with its corresponding **Dockerfile**
 
 # How to use:
