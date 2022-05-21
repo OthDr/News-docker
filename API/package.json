@@ -1,0 +1,27 @@
+{
+  "name": "express_rest1",
+  "version": "1.0.0",
+  "description": "ExpressJS restful API",
+  "main": "router.js",
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "node router.js"
+  },
+  "author": "Othmane DERRAR",
+  "license": "ISC",
+  "dependencies": {
+    "chai-http": "^4.3.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15",
+    "sequelize": "^6.19.0",
+    "sqlite3": "^5.0.5"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2"
+  }
+}

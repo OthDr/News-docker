@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia&family=Roboto+Serif:ital,wght@0,300;0,600;1,200;1,900&family=Ubuntu&display=swap');
+
+*{
+  margin: 0;
+  font-family: 'Anek Odia';
+}
+.App{
+  background-color: #fff;
+  color: #aeb2de;
+}
+.navbar{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid #9999ff;
+}
+
+.footer{
+  margin-top: 30px;
+  padding: 40px;
+}
+
+.footer .links {
+
+}
+.footer h3{
+  color: #88f;
+  width: 100%;
+  text-align: center;
+}
+
+.content h1{
+  text-align: center;
+  margin-bottom: 25px;
+}
+.navbar h1 {
+  text-align: center;
+  color: #6767ff;
+}
+.navbar .links {
+  margin-left: auto;
+  margin-right: 20px;
+}
+.navbar a{
+  padding: 6px;
+  text-decoration: none;
+  color: #9999ff;
+  margin-left: 15px;
+}
+.navbar a:hover{
+  color:orange;
+}
+
+.content{
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.home h1{
+  color: #aeb2de;
+}
+
+/* Articles list*/
+.articles-list{
+}
+/* loading   */ 
+.loading{
+  margin-top: 25px;
+  font-size: 22px;  
+  width: 100%;
+  text-align: center;
+}
+
+
+/* error  */
+.error{
+  background-color: #ff6767;
+  padding: 15px;
+  color: #fff;
+  border-radius: 8px;
+  border: 2px solid #ff4040;
+
+}
+
+.article-preview{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  background-color: #fff;
+  margin-top: 25px;
+  border-radius: 10px;
+  box-shadow: 1px 2px 4px 1px #aab;
+}
+.article-preview a {
+  padding-left: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #6767ff;
+  border-bottom: 3px solid orange;
+  margin-bottom: 12px;
+}
+
+.article-preview p {
+color: #aeb2de ;
+}
+
+.article-preview img {
+  border-radius: 5px;
+  width: 60%;
+  margin-bottom: 12px;
+ } 
+.article-preview h5 {
+  color: #4040ff;
+  margin-bottom: 12px;
+}
+.article-preview span {
+
+  border-top: 3px solid orange;
+  color: orange;
+  font-size: 14px;
+}
+
+//*-------- Register form ------- */
+.container{
+
+}
+.registration-form  table {
+  box-shadow: 2px 4px 8px 1px #aeaeff;
+  background-color: #fff;
+  width: 400px;
+  padding: 25px;
+  margin: 0 auto;
+  border-radius: 12px;
+}
+.registration-form div{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.registration-form  input {
+  float: right;
+  width: 55%;
+  padding: 2px 8px;
+  border-style: none;
+  background-color: #eef;
+  outline: none;
+  border: 2px solid transparent;
+  border-radius: 12px;
+  text-align: left;
+  color: #aaaaff;
+  font-size: 14px;
+}
+.error-msg{
+  color: #ff6767;
+  padding-left: 40%;
+  margin-bottom: 8px;
+}
+
+.registration-form  label {
+  font-size: 16px;
+  text-align: center;
+  color: #66f;
+}
+
+.registration-form  button {
+ margin-top: 19px;
+ margin-bottom: 12px;
+ width: 100%;
+ border-style: none;
+ border-radius: 12px;
+ background-color: #a1b5ff;
+ color:#fff;
+ padding: 2px 0;
+ box-shadow: 2px 4px 8px 1px #cacaff;
+ font-size: 16px;
+ font-weight: bold;
+ cursor: pointer;
+}
+
+.registration-form  button:hover{
+ background-color: #bdd1ff;
+  color: 
+}
+.registration-form  a{
+  color: #faa;
+  font-size: 16px;
+  text-decoration: none;
+}
+.registration-form  a:hover{
+  color: #faa;
+  font-weight: bolder;
+}
+.or {
+  margin-top: 12px;
+  width: 100%;
+  text-align: center;
+}
+
+
+/*   Signup  */
+.signup-form  table {
+  box-shadow: 1px 1px 76px #aeaeff;
+  background-color: #6776ff;
+  width: 400px;
+  padding: 25px;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+.signup-form div{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 6px;
+}
+
+.signup-form  input {
+  float: right;
+  border-style: none;
+  border-bottom: solid 1px #eef;
+  background-color: transparent;
+  outline: none;
+  //border-radius: 4px;
+  text-align: center;
+  color: #bdd1ff;
+  font-size: 16px;
+}
+
+.signup-form  label {
+  font-size: 18px;
+  text-align: center;
+  color: #eef;
+}
+
+.signup-form  button {
+margin-top: 19px;
+ width: 100%;
+ border-style: none;
+ border-radius: 4px;
+ background-color: #bdd1ff;
+ color:#67ff;
+ font-size: 16px;
+ font-weight: bold;
+}
+
+.signup-form  button:hover{
+  background-color: orange;
+}
+
+
+
+/* single article */
+.content{
+
+}
+.main-single-article{
+}
+
+.single-article{
+  display: flex;
+  flex-direction: column;
+}
+
+.single-article span {
+  color : orange;
+}
+
+.single-article img {
+  max-width: 80%;
+  margin-bottom: 16px;
+}
+.single-article p {
+  margin-bottom: 16px;
+  border-bottom: solid 1px #dfe1ff;
+}
+.single-article h4{
+  color : orange;
+}
+
+.single-article h5{
+  color : orange;
+  margin-top: 12px;
+}
+
+
+/*  Profile page && add-article */
+.page-profile{
+}
+.main-profile{
+}
+
+.profile-infos{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: bottom solid 1px #eef;
+}
+
+.profile-infos h4 {
+  text-align: left;
+  color:#a1b5ff;
+
+}
+/**   log-out  **/
+.logout-container button{
+  float: right;
+border: solid 2px #a1b5ff;
+ border-radius: 4px;
+ background-color: #fff;
+ color:#a1b5ff;
+ padding: 3px 6px;
+ font-size: 16px;
+ font-weight: bold;
+ cursor: pointer;
+
+}
+.logout-container button:hover{
+  float: right;
+color:#fff;
+ background-color: #a1b5ff;
+}
+
+/* add article */
+.add-article{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 12px;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  box-shadow: 1px 2px 4px 1px #aab;
+
+}
+
+.add-article input{
+  border-radius: 4px;
+  font-size: 16px;
+  color: #77a;
+  padding: 4px 8px ;
+  background-color: #eef;
+  border: none;
+  outline: none;
+}
+
+.add-article label{
+  margin-top: 15px;
+}
+
+.add-article textarea{
+  border-radius: 4px;
+  font-size: 16px;
+  color: #77a;
+  padding: 4px 8px ;
+  background-color: #eef;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+
+.add-article p{
+  margin-left: -38%;
+}
+.content-input{
+  height: 100px;
+}
+
+
+.add-article button{
+  margin-top: 25px;
+  float: right;
+border: solid 2px #a1b5ff;
+ border-radius: 4px;
+ background-color: #a1b5ff;
+ color:#fff;
+ padding: 3px 6px;
+ font-size: 16px;
+ font-weight: bold;
+ cursor: pointer;
+
+}
+.add-article button:hover{
+  float: right;
+color:#a1b5ff;
+ background-color: #fff;
+}
