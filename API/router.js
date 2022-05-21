@@ -9,7 +9,7 @@ const sequelize = require('./data/database');
 
 
 const morgan = require('morgan');
-const port = process.env.PORT || 3000 ; // dinamic port based on machine ports otherwise use 3000
+const port = process.env.PORT || 3001 ; // dinamic port based on machine ports otherwise use 3000
 
 
 const app = express();

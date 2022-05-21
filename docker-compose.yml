@@ -4,11 +4,11 @@ services:
     image: news_react
     stdin_open: true
     ports:
-      - "3006:3006"
+      - "3000:3000"
 
   api-server:
     image: api_news
     ports:
-      - "3000:3000"
+      - "3001:3001"
 
 

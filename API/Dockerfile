@@ -8,6 +8,6 @@ RUN npm install
 
 COPY . /usr/src/app
 
-EXPOSE 3000
+EXPOSE 3001
 
 CMD ["node","router.js"]
