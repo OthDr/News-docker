@@ -9,4 +9,4 @@
 
 # How to use:
 ### - In the alos_act4 directory **run the command** `docker-compose up`
-
+### - To run the website put the url wich corresponds to the client-app : **http://localhost:3000/**
