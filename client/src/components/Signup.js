@@ -24,7 +24,7 @@ const Signup = () => {
 		if(isPending == false){
 			if(!errors.email && !errors.password){	
 				setISPending(true);
-					fetch('http://localhost:3000/v2/api/login', {
+					fetch('http://localhost:3001/v2/api/login', {
 						method: 'POST',
 						headers: { "Content-Type":"application/json" },
 						body: JSON.stringify(credentials)

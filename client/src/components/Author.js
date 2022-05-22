@@ -56,7 +56,7 @@ const  Author = () => {
 
     useEffect(()=>{
         setProfile(null);
-        fetch('http://localhost:3000/v2/api/authors/me',{
+        fetch('http://localhost:3001/v2/api/authors/me',{
         	method: 'GET',
         	headers: headers,
         })
@@ -95,7 +95,7 @@ const  Author = () => {
                 const req_body = req_article;
                 console.log(authorId)
                 setISPending(true);
-                    fetch('http://localhost:3000/v2/api/news/article', {
+                    fetch('http://localhost:3001/v2/api/news/article', {
                         method: 'POST',
                         headers: { "Content-Type":"application/json" },
                         body: JSON.stringify(req_article)
@@ -118,7 +118,7 @@ const  Author = () => {
 
     const get_user = (email) => {
         if(email){
-            fetch('http://localhost:3000/v2/api/authors/email='+email)
+            fetch('http://localhost:3001/v2/api/authors/email='+email)
             .then(res => {
                 if(!res.ok){
                     throw Error('Sorry! Could not find the ressource');

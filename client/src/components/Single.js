@@ -13,7 +13,7 @@ const Single = () => {
 
 	useEffect(()=>{
 	        setArticle(null);
-	        fetch('http://localhost:3000/v2/api/news/'+id)
+	        fetch('http://localhost:3001/v2/api/news/'+id)
 	        .then(res => {
 	            if(!res.ok){
 	                throw Error('Sorry! Could not find the ressource');

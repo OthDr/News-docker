@@ -1,14 +1,15 @@
-version: "3"
-services:
-  react-app:
-    image: news_react
-    stdin_open: true
-    ports:
-      - "3000:3000"
+version: "3.8"
 
+services:
   api-server:
-    image: api_news
+    build: ./api
     ports:
-      - "3001:3001"
+      - 3001:3001
+
+  react-app:
+    build: ./client
+    ports:
+      - 3000:3000
+      
 
 

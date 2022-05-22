@@ -30,7 +30,7 @@ const Register = () => {
 		if(isPending == false){
 			if(!errors.email && !errors.password){	
 				setISPending(true);
-					fetch('http://localhost:3000/v2/api/authors', {
+					fetch('http://localhost:3001/v2/api/authors', {
 						method: 'POST',
 						headers: { "Content-Type":"application/json" },
 						body: JSON.stringify(credentials)
