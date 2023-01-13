@@ -16,5 +16,5 @@
 ![Sequelize](https://img.shields.io/badge/Sequelize-52B0E7?style=for-the-badge&logo=Sequelize&logoColor=white)
 
 # How to use:
-### - In the alos_act4 directory **run the command** `docker-compose up`
+### - In the project directory **run the command** `docker-compose up`
 ### - To run the website put the url wich corresponds to the client-app : **http://localhost:3000/**
