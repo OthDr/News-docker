@@ -17,4 +17,4 @@
 
 # How to use:
 ### - In the project directory **run the command** `docker-compose up`
-### - To run the website put the url wich corresponds to the client-app : **http://localhost:3000/**
+### - The website url wich corresponds to the client-app : **http://localhost:3000/**
